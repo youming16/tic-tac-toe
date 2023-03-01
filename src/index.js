@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -6,11 +6,36 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+function Square() {
+  const [value, setValue] = useState(null);
 
+  function handleClick() {
+    setValue("X");
+    console.log('click!');
+  }
+
+  return (
+    <button className='square' onClick={handleClick}>{ value }</button>
+  )
+}
 
 root.render(
   <>
-      
+    <div className="board-row">
+      <Square />
+      <Square />
+      <Square />
+    </div>
+    <div className="board-row">
+      <Square />
+      <Square />
+      <Square />
+    </div>
+    <div className="board-row">
+      <Square />
+      <Square />
+      <Square />
+    </div>
   </>
 );
 
