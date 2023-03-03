@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/youming16/tic-tac-toe/static/css/main.74acce42.css",
+    "main.js": "/youming16/tic-tac-toe/static/js/main.63f8793b.js",
+    "static/js/787.393238a3.chunk.js": "/youming16/tic-tac-toe/static/js/787.393238a3.chunk.js",
+    "index.html": "/youming16/tic-tac-toe/index.html",
+    "main.74acce42.css.map": "/youming16/tic-tac-toe/static/css/main.74acce42.css.map",
+    "main.63f8793b.js.map": "/youming16/tic-tac-toe/static/js/main.63f8793b.js.map",
+    "787.393238a3.chunk.js.map": "/youming16/tic-tac-toe/static/js/787.393238a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74acce42.css",
+    "static/js/main.63f8793b.js"
+  ]
+}
